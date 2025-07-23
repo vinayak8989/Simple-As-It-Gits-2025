@@ -2,6 +2,17 @@
 
 *"Simple as it Gits"* is a full-day, hands-on workshop on Git and GitHub, conducted by FOSS Club SSET.
 
+## Index
+
+- [Module 1: Git Fundamentals & Local Workflow](#module-1-git-fundamentals--local-workflow)
+- [Module 2: Branching & Merging](#module-2-branching--merging)
+- [Module 3: GitHub Integration](#module-3-github-integration)
+- [Module 4: Collaboration Workflow](#module-4-collaboration-workflow)
+- [Module 5: Undoing Changes](#module-5-undoing-changes)
+- [Module 6: Advanced Practices](#module-6-advanced-practices)
+
+----
+
 ## Module 1: Git Fundamentals & Local Workflow
 ### Concepts Covered:
 
