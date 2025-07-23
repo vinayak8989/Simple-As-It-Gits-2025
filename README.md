@@ -1,6 +1,6 @@
 # Simple As It Gits 2025 Curriculum
 
-"Simple as it Gits" is a full-day, hands-on workshop on Git and GitHub, conducted by FOSS Club SSET.
+*"Simple as it Gits"* is a full-day, hands-on workshop on Git and GitHub, conducted by FOSS Club SSET.
 
 ## Module 1: Git Fundamentals & Local Workflow
 ### Concepts Covered:
