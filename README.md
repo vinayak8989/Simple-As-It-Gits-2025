@@ -11,7 +11,6 @@
 - [Module 5: Undoing Changes](#module-5-undoing-changes)
 - [Module 6: Advanced Practices](#module-6-advanced-practices)
 
----
 
 ## Module 1: Git Fundamentals & Local Workflow
 ### Concepts Covered:
@@ -95,7 +94,6 @@ git add .
 git commit -m "<message>"
 git log
 ```
----
 
 ## Module 2: Branching & Merging
 ### Concepts Covered:
