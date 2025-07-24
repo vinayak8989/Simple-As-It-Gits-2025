@@ -35,7 +35,7 @@ git log
 git diff
 ```
 
-### Installation Initial Configuration
+### Installation & Initial Configuration
 
 > [Use the official website](https://git-scm.com/) to download git
 
