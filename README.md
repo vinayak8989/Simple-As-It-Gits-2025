@@ -35,25 +35,9 @@ git log
 git diff
 ```
 
-### Installation
+### Installation Initial Configuration
 
-**Windows:**
-```bash
-winget install Git.Git
-```
-**macOS**
-```bash
-brew install git
-```
-**Linux (Debian/Ubuntu):**
-Debian varients
-```bash
-sudo apt install git -y
-```
-> Note: [Use the official website incase of confusions](https://git-scm.com/)
-
-
-### Initial Configuration
+> [Use the official website](https://git-scm.com/) to download git
 
 Setting up the global identity
 
