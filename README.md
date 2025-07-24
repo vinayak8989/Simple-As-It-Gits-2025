@@ -11,7 +11,7 @@
 - [Module 5: Undoing Changes](#module-5-undoing-changes)
 - [Module 6: Advanced Practices](#module-6-advanced-practices)
 
-----
+---
 
 ## Module 1: Git Fundamentals & Local Workflow
 ### Concepts Covered:
@@ -34,15 +34,84 @@ git commit -m "Message"
 git log
 git diff
 ```
+
+### Installation
+
+**Windows:**
+```bash
+winget install Git.Git
+```
+**macOS**
+```bash
+brew install git
+```
+**Linux (Debian/Ubuntu):**
+Debian varients
+```bash
+sudo apt install git -y
+```
+> Note: [Use the official website incase of confusions](https://git-scm.com/)
+
+
+### Initial Configuration
+
+Setting up the global identity
+
+```bash
+# Configure author name
+git config --global user.name "Alex Johnson"
+
+# Configure author email
+git config --global user.email "alex@example.com"
+```
+
 ### Exercise:
 
 1. Create a project folder with mkdir
 
+```bash
+mkdir simple-as-it-gits
+```
+
 2. Initialize Git repo
 
-3. Create README.md, modify it, stage & commit
+```bash
+git init
+```
 
-4. Check status/history after each step
+3. Create README.md and write something
+
+```bash
+code README.md
+```
+
+4. Stage & commit
+
+```bash
+git add README.md
+git commit -m "My first commit"
+```
+
+5. Check Log
+
+```bash
+git log
+```
+
+6. Modify README.md then check status & diff
+
+```bash
+git status
+git diff
+```
+7. Stage, commit all changes and check log
+
+```bash
+git add .
+git commit -m "<message>"
+git log
+```
+---
 
 ## Module 2: Branching & Merging
 ### Concepts Covered:
