@@ -193,12 +193,45 @@ git clone <URL>
 ### Exercise:
 
 1. Create GitHub repo (no README/license)
-
+Create an account on GitHub
+Initialize a repository 
+    
 2. Connect local repo to GitHub
+reference: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+Enter file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
+```bash
+clip < ~/.ssh/id_ed25519.pub
+```
+In the upper-right corner of any page on GitHub, click your profile picture, then click  Settings.
 
-3. Push branches
+In the left sidebar: Access > SSH and GPG keys
 
-4. Clone a partner's repo
+Click New SSH key or Add SSH key.
+
+In the "Title" field, add a descriptive label for the new key.
+
+In the "Key" field, paste what was copied from the clip command
+
+Click Add SSH key.
+
+```bash
+git remote add origin git@github.com:YourUsername/YourRepository.git
+```
+4. Push branches
+```bash
+git push -u origin main
+```
+If your local branch is named master, use:
+```bash
+git push -u origin master
+```
+5. Clone a partner's repo
+```bash
+git clone git@github.com:partnerusername/their-repo-name.git
+```   
 
 ## Module 4: Collaboration Workflow
 ### Concepts Covered:
