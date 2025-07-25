@@ -53,7 +53,8 @@ git config --global user.email "alex@example.com"
 1. Create a project folder with mkdir
 
 ```bash
-mkdir simple-as-it-gits
+mkdir my-first-git-repo
+cd my-first-git-repo
 ```
 
 2. Initialize Git repo
