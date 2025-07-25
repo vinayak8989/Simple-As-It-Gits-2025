@@ -99,36 +99,78 @@ git log
 ## Module 2: Branching & Merging
 ### Concepts Covered:
 
-- Branch isolation
+- Working with isolated branches
+
+- Merging changes back to main
 
 - Fast-forward vs. 3-way merges
 
-- Conflict resolution
+- Resolving merge conflicts
 
 ```bash
-CLI Commands:
 
-bash
-git branch                       # List branches
-git branch <name>                # Create branch
-git switch <branch>              # Switch branch
-git switch -c <new-branch>       # Create & switch
-git merge <branch>               # Merge into current branch
+CLI Commands:
+git branch                     # List all branches
+git branch <name>             # Create a new branch
+git switch <branch>           # Switch to an existing branch
+git switch -c <new-branch>    # Create and switch to a new branch
+git merge <branch>            # Merge given branch into current branch
 ```
 
-### Exercise:
+Exercise:
+1. Create a new branch and switch to it
+```bash
+Copy
+Edit
+git switch -c feature-1
+```
+> You're now working on a new isolated branch named feature-1.
 
-1. Create feature branch from main
+2. Make some change in the file and commit
+```bash
+git add feature.txt
+git commit -m "Add feature 1"
+```
 
-2. Make conflicting changes in both branches
+3. Switch back to the main branch
+```bash
+git switch main
+```
 
-3. Resolve merge conflict manually:
+4. Make some other conflicting change in the same file
+```bash
+git add feature.txt
+git commit -m "Main branch change"
+```
 
-3. Edit conflicted files
+5. Try to merge feature-1 into main
+```bash
+git merge feature-1
+```
+> Since both branches changed the same file, Git will report a merge conflict.
 
-4. git add resolved files
+6. Resolve the conflict manually
+Open the conflicted file (e.g, feature.txt). It will look like this:
 
-5. git commit
+```txt
+<<<<<<< HEAD
+This is main branch change
+=======
+This is feature 1
+>>>>>>> feature-1
+```
+Edit the file to resolve the conflict:
+
+```txt
+This is main branch change
+This is feature 1
+```
+
+7. Stage the resolved file and commit
+```bash
+git add feature.txt
+git commit -m "Resolve merge conflict between main and feature-1"
+```
 
 ## Module 3: GitHub Integration
 ### Concepts Covered:
