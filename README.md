@@ -242,9 +242,6 @@ If your local branch is named master, use:
 ```bash
 git push -u origin master
 ```
-~NOTE:  
-bash```git push``` uploads your commits to the remote repository for the branch you’re currently working in.
-
 5. Clone a partner's repo
 ```bash
 git clone git@github.com:partnerusername/their-repo-name.git
