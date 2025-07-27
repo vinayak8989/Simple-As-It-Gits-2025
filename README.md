@@ -98,20 +98,6 @@ git log
 
 ## Module 2: Branching & Merging
 
-### Bro why should you Branch? 
-
-- Because bro it allows us to work on features, fixes, or ideas without touching the main code.
-
-- Because bro experiment freely bro. If something breaks and you dont want your chin to break, this helps keep your main branch stays stable bro.
-
-- Collaborate with others bro— each person can have their own branch bro.
-
-- Keep code clean and neat and reviewable bro.
-
-> Think of a branch like a separate workarea:
-> do your mess up work there, and only merge into the kitchen (main branch) when you're clean and ready.
-
-
 ### Concepts Covered:
 
 - Working with isolated branches
