@@ -297,11 +297,40 @@ git stash                       # Temporary shelf
 
 ### Exercise:
 
-1. Commit → git reset --soft → modify → recommit
+1. Undo and recommit
+-Make a change and commit it
+```bash
+git reset --soft HEAD~1
+```
+-Modify the file and recommit the updated change
 
-2. Intentionally break code → git restore
+2. Discard Broken Code
+-intentionally break a file
+-Discard changes with:
+```bash
+git restore <file>
+```
 
-3. Use git revert on pushed commit
+3. Revert a pushed commit
+-Identify the hash of a commit already pushed
+```bash
+git revert <commit-hash>
+```
+-Push the reverted commit to remote
+```bash
+git push
+```
+
+4. Use git stash
+-Make uncommitted changes
+```bash
+git stash
+```
+-switch branches of perform other tasks
+-reapply the changes with:
+```bash
+git stash pop
+```
 
 ## Module 6: Advanced Practices
 ### Concepts Covered:
