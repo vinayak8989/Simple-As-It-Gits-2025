@@ -265,7 +265,7 @@ git clone git@github.com:partnerusername/their-repo-name.git
 ---
 
 Task:
-Fork the Simple As It Gits repo, clone it to your local machine, and add a <your_name>.md file in the participants folder.
+Fork the [Simple As It Gits repo](https://github.com/FOSS-Club-SSET/Simple-As-It-Gits-2025), clone it to your local machine, and add a <your_name>.md file in the participants folder.
 
 ### CLI Commands:
 
@@ -283,7 +283,7 @@ git push
 
 #### 1. Fork the Original Repository
 
-- Go to the GitHub page of the Simple As It Gits repository.
+- Go to the GitHub page of the [Simple As It Gits](https://github.com/FOSS-Club-SSET/Simple-As-It-Gits-2025) repository.
 - Click on the *Fork* button in the upper-right corner.
 - This will create a copy of the repository under your GitHub account.
 
@@ -341,12 +341,6 @@ git push origin my-feature-branch
 > Now the project maintainers can review and merge your contributions!
 
 ---
-
-### ✅ Summary:
-
-- Fork → Clone → Branch → Navigate → Change → Push → PR
-- Contribute to open source without affecting the original code directly.
-
 
 ## Module 5: Undoing Changes
 ### Concepts Covered:
