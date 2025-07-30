@@ -252,34 +252,101 @@ git clone git@github.com:partnerusername/their-repo-name.git
 ```   
 
 ## Module 4: Collaboration Workflow
+
 ### Concepts Covered:
 
-- Pull Requests (GitHub UI)
+- Forking a repository on GitHub
+- Cloning the forked repository
+- Creating a new branch for changes
+- Making and committing changes in the cloned repo
+- Pushing changes to the forked GitHub repo
+- Opening a Pull Request (PR)
 
-- Fetching changes
+---
 
-- Upstream tracking
-  
-```bash
-CLI Commands:
+Task:
+Fork the Simple As It Gits repo, clone it to your local machine, and add a <your_name>.md file in the participants folder.
+
+### CLI Commands:
 
 bash
-git fetch                        # Check remote changes
-git merge origin/main            # Merge fetched changes
-git pull --rebase                # Rebase instead of merge
-git push --force-with-lease      # Safely overwrite history
-```
+git clone    
+git switch      
+git add              
+git commit        
+git push
+
+
+---
+
 ### Exercise:
 
-1. Simulate team collaboration:
+#### 1. Fork the Original Repository
 
-2. Partner A: Push commit to main
+- Go to the GitHub page of the Simple As It Gits repository.
+- Click on the *Fork* button in the upper-right corner.
+- This will create a copy of the repository under your GitHub account.
 
-3. Partner B: git fetch → git merge
 
-4. Create PR via GitHub, review diff
+#### 2. Clone the Forked Repository
 
-5. Resolve merge conflict via CLI
+bash
+git clone git@github.com:your-username/Simple-As-It-Gits-2025.git
+cd Simple-As-It-Gits-2025/
+
+
+#### 3. Create and Switch to a New Branch
+
+bash
+git switch -c my-feature-branch
+
+> This keeps your changes isolated from the main code.
+
+
+#### 4. Navigate to folder A
+
+bash
+cd Participants
+
+> This will navigate to folder Participants, residing inside the Simple-As-It-Gits-2025 repository.
+
+
+#### 5. Make Changes
+
+- Enter your name and a short sentence about yourself.
+- Save your work.
+
+
+#### 6. Stage and Commit Changes
+
+bash
+git add .
+git commit -m "Add a meaningful commit message describing your change"
+
+
+#### 7. Push Your Branch to Your Fork
+
+bash
+git push origin my-feature-branch
+
+
+#### 8. Open a Pull Request (PR)
+
+- Go to your forked repository on GitHub.
+- You'll see a prompt to open a pull request for the pushed branch.
+- Click *"Compare & pull request"*.
+- Add a title and description for your changes.
+- Click *"Create pull request"*.
+
+> Now the project maintainers can review and merge your contributions!
+
+---
+
+### ✅ Summary:
+
+- Fork → Clone → Branch → Navigate → Change → Push → PR
+- Contribute to open source without affecting the original code directly.
+
 
 ## Module 5: Undoing Changes
 ### Concepts Covered:
