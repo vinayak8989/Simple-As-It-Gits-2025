@@ -290,10 +290,10 @@ git push
 
 #### 2. Clone the Forked Repository
 
-bash
+```bash
 git clone git@github.com:your-username/Simple-As-It-Gits-2025.git
 cd Simple-As-It-Gits-2025/
-
+```
 
 #### 3. Create and Switch to a New Branch
 
