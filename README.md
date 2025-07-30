@@ -265,7 +265,7 @@ git clone git@github.com:partnerusername/their-repo-name.git
 ---
 
 Task:
-Fork the [Simple As It Gits repo](https://github.com/FOSS-Club-SSET/Simple-As-It-Gits-2025), clone it to your local machine, and add a <your_name>.md file in the participants folder.
+Fork the [Simple As It Gits](https://github.com/FOSS-Club-SSET/Simple-As-It-Gits-2025) repo, clone it to your local machine, and add a <your_name>.md file in the participants folder.
 
 ### CLI Commands:
 
