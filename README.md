@@ -297,16 +297,18 @@ cd Simple-As-It-Gits-2025/
 
 #### 3. Create and Switch to a New Branch
 
-bash
+```bash
 git switch -c my-feature-branch
+```
 
 > This keeps your changes isolated from the main code.
 
 
 #### 4. Navigate to folder A
 
-bash
+```bash
 cd Participants
+```
 
 > This will navigate to folder Participants, residing inside the Simple-As-It-Gits-2025 repository.
 
@@ -319,16 +321,16 @@ cd Participants
 
 #### 6. Stage and Commit Changes
 
-bash
+```bash
 git add .
 git commit -m "Add a meaningful commit message describing your change"
-
+```
 
 #### 7. Push Your Branch to Your Fork
 
-bash
+```bash
 git push origin my-feature-branch
-
+```
 
 #### 8. Open a Pull Request (PR)
 
