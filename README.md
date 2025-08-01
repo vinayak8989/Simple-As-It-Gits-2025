@@ -304,7 +304,7 @@ git switch -c my-feature-branch
 > This keeps your changes isolated from the main code.
 
 
-#### 4. Navigate to folder A
+#### 4. Navigate to participants folder
 
 ```bash
 cd Participants
