@@ -255,28 +255,27 @@ git clone git@github.com:partnerusername/their-repo-name.git
 ## Module 4: Collaboration Workflow
 
 ### Concepts Covered:
-```bash
+
 - Forking a repository on GitHub
 - Cloning the forked repository
 - Creating a new branch for changes
 - Making and committing changes in the cloned repo
 - Pushing changes to the forked GitHub repo
 - Opening a Pull Request (PR)
-```
----
+
 
 Task:
 Fork the [Simple As It Gits](https://github.com/FOSS-Club-SSET/Simple-As-It-Gits-2025) repo, clone it to your local machine, and add a `<your_name_scsnumber>.md` file in the participants folder.
 
 ### CLI Commands:
 
-bash
+```bash
 git clone    
 git switch      
 git add              
 git commit        
 git push
-
+```
 
 ---
 
