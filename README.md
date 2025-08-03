@@ -66,7 +66,7 @@ git init
 3. Create README.md and write something
 
 ```bash
-code README.md
+code .
 ```
 
 4. Stage & commit
@@ -88,6 +88,7 @@ git log
 git status
 git diff
 ```
+
 7. Stage, commit all changes and check log
 
 ```bash
