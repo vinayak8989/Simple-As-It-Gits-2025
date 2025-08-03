@@ -312,6 +312,7 @@ cd Participants
 
 > This will navigate to folder Participants, residing inside the Simple-As-It-Gits-2025 repository.
 
+#### 5. Create a new file `<yourname_admission_number>.md`
 
 #### 5. Make Changes
 
