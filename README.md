@@ -207,8 +207,8 @@ git clone <URL>
 ```
 ### Exercise:
 
-1. Create GitHub repo (no README/license)
-Create an account on GitHub
+1. Create an account on [GitHub](https://github.com) and Create a GitHub repo  (no README/license)
+
 Initialize a repository 
     
 2. Connect local repo to GitHub
